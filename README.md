@@ -1,7 +1,7 @@
 ---
 # CXWebProgressAndJS
 
-* [BugWacko's Blog](https://bugwacko.github.io) ↑↑↑
+* [BugWacko's Blog](https://bugwacko.github.io) 
 
 
 这个实例是web加载动画和网页js信息回调功能集合，里面的关键代码在于动画的添加和js的初始化和回调。
