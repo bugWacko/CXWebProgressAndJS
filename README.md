@@ -1,9 +1,12 @@
 ---
 # CXWebProgressAndJS
 
+* [BugWacko's Blog](https://bugwacko.github.io) ↑↑↑
+
+
 这个实例是web加载动画和网页js信息回调功能集合，里面的关键代码在于动画的添加和js的初始化和回调。
 
-### Web Progress Animation
+## Web Progress Animation
 
 其中使用的动画比较简单，自带API：
 
@@ -43,7 +46,7 @@
 }
 ```
 
-### Web And JS
+## Web And JS
 
 实例中我们已一个分享返回为例，通过点击指定web方法，实现js回调回传数据，其中包括分享连接、图片等数据，具体可因自己开发而定。
 
