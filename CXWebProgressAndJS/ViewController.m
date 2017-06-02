@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CXWebVC.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,16 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+#pragma mark - push web view
+- (IBAction)InterBtnAction:(UIButton *)sender {
+    
+    CXWebVC * web = [[CXWebVC alloc] init];
+    web.hidesBottomBarWhenPushed = YES;
+    web.url = @"https://www.baidu.com/";
+    web.popRootVCStr = NSStringFromClass([ViewController class]);
+    
+    [self.navigationController pushViewController:web animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
